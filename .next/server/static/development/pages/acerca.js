@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1068,21 +1068,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./node_modules/react-responsive-carousel/lib/styles/carousel.min.css":
-/*!****************************************************************************!*\
-  !*** ./node_modules/react-responsive-carousel/lib/styles/carousel.min.css ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./pages/certificaciones.js":
-/*!**********************************!*\
-  !*** ./pages/certificaciones.js ***!
-  \**********************************/
+/***/ "./pages/acerca.js":
+/*!*************************!*\
+  !*** ./pages/acerca.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1092,218 +1081,136 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-responsive-carousel/lib/styles/carousel.min.css */ "./node_modules/react-responsive-carousel/lib/styles/carousel.min.css");
-/* harmony import */ var react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-responsive-carousel */ "react-responsive-carousel");
-/* harmony import */ var react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _layouts_Default__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../layouts/Default */ "./layouts/Default.js");
-var _jsxFileName = "/home/juanl/Proyectos/React/portafolio/pages/certificaciones.js";
+/* harmony import */ var react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-chartjs-2 */ "react-chartjs-2");
+/* harmony import */ var react_chartjs_2__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _layouts_Default__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../layouts/Default */ "./layouts/Default.js");
+var _jsxFileName = "/home/juanl/Proyectos/React/portafolio/pages/acerca.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
- // React Responsive Carousel
-
 
  // Layout
 
 
 
-const certificaciones = ({
+const acerca = ({
   url
 }) => {
-  return __jsx(_layouts_Default__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: "Certificaciones",
+  // const data = [{x: '2016-12-25', y: 20}, {x: '2016-12-26', y: 10}]
+  const data = {
+    labels: ['HTML', 'JavaScript', 'ReactJS', 'Angular', 'VueJS', 'ExpressJS', 'Django', 'Laravel'],
+    datasets: [{
+      label: 'Conocimientos (Porcentaje)',
+      backgroundColor: '#00a78c',
+      borderColor: '#004b50',
+      borderWidth: 1,
+      hoverBackgroundColor: '#004a4f',
+      hoverBorderColor: '#8bc34a',
+      data: [90, 90, 70, 60, 70, 60, 40, 50, 100, 0]
+    }]
+  };
+  return __jsx(_layouts_Default__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "\xBFQuien soy?",
     route: url.pathname,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 34
     },
     __self: undefined
   }, __jsx("div", {
-    className: "jsx-125907449" + " " + "carousel-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: undefined
-  }, __jsx(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__["Carousel"], {
-    showThumbs: false,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/django.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/react.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/react-router.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/redux.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/next-js.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/php-laravel.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/vuejs.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
+    className: "jsx-3358295722" + " " + "about-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/vuejs-profesional.png",
-    className: "jsx-125907449",
+  }, __jsx("div", {
+    className: "jsx-3358295722" + " " + "row pt-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
+  }, __jsx("div", {
+    className: "jsx-3358295722" + " " + "col text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    className: "jsx-3358295722",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/git-github.png",
-    className: "jsx-125907449",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
+  }, "\xBFQui\xE9n soy?"))), __jsx("div", {
+    className: "jsx-3358295722" + " " + "row text mt-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/creacion-de-empresas.png",
-    className: "jsx-125907449",
+  }, __jsx("div", {
+    className: "jsx-3358295722" + " " + "col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: undefined
-  })), __jsx("div", {
-    className: "jsx-125907449",
+  }, __jsx("p", {
+    className: "jsx-3358295722",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 43
     },
     __self: undefined
-  }, __jsx("img", {
-    src: "/static/img/certificaciones/ibm-cloud.png",
-    className: "jsx-125907449",
+  }, "Soy Juan Villarroel, venezolano estudiante de Licenciatura en Inform\xE1tica. Siempre he tenido como h\xE1bitat natural el entorno de la programaci\xF3n web, tanto a nivel informativo como laboral. En el transcurso de mi carrera universitaria siempre he buscado informaci\xF3n adicional relacionada al dise\xF1o web, he realizado varios proyectos por hobbie. Adicionalmente poseo conocimientos pr\xE1cticos en el uso de Photoshop siendo un gran apoyo en el dise\xF1o de alg\xFAn proyecto. Me considero una persona con compromiso, y por poner mucho empe\xF1o en las cosas hago, programar para mi se vuelve entretenido, me divierte, me emociona. Es por eso que cuando se trata de programar siempre doy el 200% de mi y as\xED enfrentar todas las dificultades al momento de proponerme algo."))), __jsx("div", {
+    className: "jsx-3358295722" + " " + "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 59
     },
     __self: undefined
-  })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "125907449",
+  }, __jsx("div", {
+    className: "jsx-3358295722" + " " + "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
     __self: undefined
-  }, ".carousel-container.jsx-125907449{background-color:#004b50 !important;height:100vh;}.slide{background-color:#004b50 !important;overflow:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2p1YW5sL1Byb3llY3Rvcy9SZWFjdC9wb3J0YWZvbGlvL3BhZ2VzL2NlcnRpZmljYWNpb25lcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnRGtCLEFBRytDLEFBSUEsb0NBSHZCLEFBSUMsYUFIaEIsQ0FJQSIsImZpbGUiOiIvaG9tZS9qdWFubC9Qcm95ZWN0b3MvUmVhY3QvcG9ydGFmb2xpby9wYWdlcy9jZXJ0aWZpY2FjaW9uZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG4vLyBSZWFjdCBSZXNwb25zaXZlIENhcm91c2VsXG5pbXBvcnQgJ3JlYWN0LXJlc3BvbnNpdmUtY2Fyb3VzZWwvbGliL3N0eWxlcy9jYXJvdXNlbC5taW4uY3NzJ1xuaW1wb3J0IHtDYXJvdXNlbH0gZnJvbSAncmVhY3QtcmVzcG9uc2l2ZS1jYXJvdXNlbCdcblxuLy8gTGF5b3V0XG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2xheW91dHMvRGVmYXVsdCdcblxuY29uc3QgY2VydGlmaWNhY2lvbmVzID0gKHt1cmx9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPExheW91dCB0aXRsZT1cIkNlcnRpZmljYWNpb25lc1wiIHJvdXRlPXt1cmwucGF0aG5hbWV9PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJvdXNlbC1jb250YWluZXJcIj5cbiAgICAgICAgPENhcm91c2VsIHNob3dUaHVtYnM9e2ZhbHNlfT5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2ltZy9jZXJ0aWZpY2FjaW9uZXMvZGphbmdvLnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9pbWcvY2VydGlmaWNhY2lvbmVzL3JlYWN0LnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9pbWcvY2VydGlmaWNhY2lvbmVzL3JlYWN0LXJvdXRlci5wbmdcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8aW1nIHNyYz1cIi9zdGF0aWMvaW1nL2NlcnRpZmljYWNpb25lcy9yZWR1eC5wbmdcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8aW1nIHNyYz1cIi9zdGF0aWMvaW1nL2NlcnRpZmljYWNpb25lcy9uZXh0LWpzLnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9pbWcvY2VydGlmaWNhY2lvbmVzL3BocC1sYXJhdmVsLnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9pbWcvY2VydGlmaWNhY2lvbmVzL3Z1ZWpzLnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9pbWcvY2VydGlmaWNhY2lvbmVzL3Z1ZWpzLXByb2Zlc2lvbmFsLnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9pbWcvY2VydGlmaWNhY2lvbmVzL2dpdC1naXRodWIucG5nXCIgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2ltZy9jZXJ0aWZpY2FjaW9uZXMvY3JlYWNpb24tZGUtZW1wcmVzYXMucG5nXCIgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2ltZy9jZXJ0aWZpY2FjaW9uZXMvaWJtLWNsb3VkLnBuZ1wiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ2Fyb3VzZWw+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNhcm91c2VsLWNvbnRhaW5lciB7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAwNGI1MCAhaW1wb3J0YW50O1xuICAgICAgICAgIGhlaWdodDogMTAwdmg7XG4gICAgICAgIH1cbiAgICAgICAgOmdsb2JhbCguc2xpZGUpIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA0YjUwICFpbXBvcnRhbnQ7XG4gICAgICAgICAgb3ZlcmZsb3c6IGF1dG87XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L0xheW91dD5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBjZXJ0aWZpY2FjaW9uZXNcbiJdfQ== */\n/*@ sourceURL=/home/juanl/Proyectos/React/portafolio/pages/certificaciones.js */"));
+  }, __jsx("div", {
+    className: "jsx-3358295722" + " " + "card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "jsx-3358295722" + " " + "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: undefined
+  }, __jsx(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__["HorizontalBar"], {
+    options: {
+      responsive: true
+    },
+    height: 100,
+    data: data,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: undefined
+  })))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3358295722",
+    __self: undefined
+  }, ".text.jsx-3358295722 p.jsx-3358295722{text-align:justify;}.about-container.jsx-3358295722{background-image:url(/static/img/tools.png);background-size:cover;background-position:center;background-repeat:no-repeat;color:#fff;height:100vh;padding:0px 30px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2p1YW5sL1Byb3llY3Rvcy9SZWFjdC9wb3J0YWZvbGlvL3BhZ2VzL2FjZXJjYS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3RWtCLEFBRzhCLEFBR3lCLG1CQUY5Qyx5QkFHd0Isc0JBQ0ssMkJBQ0MsNEJBQ2pCLFdBQ0UsYUFDSSxpQkFDbkIiLCJmaWxlIjoiL2hvbWUvanVhbmwvUHJveWVjdG9zL1JlYWN0L3BvcnRhZm9saW8vcGFnZXMvYWNlcmNhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHtIb3Jpem9udGFsQmFyfSBmcm9tICdyZWFjdC1jaGFydGpzLTInXG5cbi8vIExheW91dFxuaW1wb3J0IExheW91dCBmcm9tICcuLi9sYXlvdXRzL0RlZmF1bHQnXG5cbmNvbnN0IGFjZXJjYSA9ICh7dXJsfSkgPT4ge1xuICAvLyBjb25zdCBkYXRhID0gW3t4OiAnMjAxNi0xMi0yNScsIHk6IDIwfSwge3g6ICcyMDE2LTEyLTI2JywgeTogMTB9XVxuICBjb25zdCBkYXRhID0ge1xuICAgIGxhYmVsczogW1xuICAgICAgJ0hUTUwnLFxuICAgICAgJ0phdmFTY3JpcHQnLFxuICAgICAgJ1JlYWN0SlMnLFxuICAgICAgJ0FuZ3VsYXInLFxuICAgICAgJ1Z1ZUpTJyxcbiAgICAgICdFeHByZXNzSlMnLFxuICAgICAgJ0RqYW5nbycsXG4gICAgICAnTGFyYXZlbCdcbiAgICBdLFxuICAgIGRhdGFzZXRzOiBbXG4gICAgICB7XG4gICAgICAgIGxhYmVsOiAnQ29ub2NpbWllbnRvcyAoUG9yY2VudGFqZSknLFxuICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICcjMDBhNzhjJyxcbiAgICAgICAgYm9yZGVyQ29sb3I6ICcjMDA0YjUwJyxcbiAgICAgICAgYm9yZGVyV2lkdGg6IDEsXG4gICAgICAgIGhvdmVyQmFja2dyb3VuZENvbG9yOiAnIzAwNGE0ZicsXG4gICAgICAgIGhvdmVyQm9yZGVyQ29sb3I6ICcjOGJjMzRhJyxcbiAgICAgICAgZGF0YTogWzkwLCA5MCwgNzAsIDYwLCA3MCwgNjAsIDQwLCA1MCwgMTAwLCAwXVxuICAgICAgfVxuICAgIF1cbiAgfVxuXG4gIHJldHVybiAoXG4gICAgPExheW91dCB0aXRsZT1cIsK/UXVpZW4gc295P1wiIHJvdXRlPXt1cmwucGF0aG5hbWV9PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJhYm91dC1jb250YWluZXJcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgcHQtNFwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICA8aDE+wr9RdWnDqW4gc295PzwvaDE+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyB0ZXh0IG10LTNcIj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbFwiPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIFNveSBKdWFuIFZpbGxhcnJvZWwsIHZlbmV6b2xhbm8gZXN0dWRpYW50ZSBkZSBMaWNlbmNpYXR1cmEgZW5cbiAgICAgICAgICAgICAgSW5mb3Jtw6F0aWNhLiBTaWVtcHJlIGhlIHRlbmlkbyBjb21vIGjDoWJpdGF0IG5hdHVyYWwgZWwgZW50b3JubyBkZVxuICAgICAgICAgICAgICBsYSBwcm9ncmFtYWNpw7NuIHdlYiwgdGFudG8gYSBuaXZlbCBpbmZvcm1hdGl2byBjb21vIGxhYm9yYWwuIEVuIGVsXG4gICAgICAgICAgICAgIHRyYW5zY3Vyc28gZGUgbWkgY2FycmVyYSB1bml2ZXJzaXRhcmlhIHNpZW1wcmUgaGUgYnVzY2Fkb1xuICAgICAgICAgICAgICBpbmZvcm1hY2nDs24gYWRpY2lvbmFsIHJlbGFjaW9uYWRhIGFsIGRpc2XDsW8gd2ViLCBoZSByZWFsaXphZG9cbiAgICAgICAgICAgICAgdmFyaW9zIHByb3llY3RvcyBwb3IgaG9iYmllLiBBZGljaW9uYWxtZW50ZSBwb3NlbyBjb25vY2ltaWVudG9zXG4gICAgICAgICAgICAgIHByw6FjdGljb3MgZW4gZWwgdXNvIGRlIFBob3Rvc2hvcCBzaWVuZG8gdW4gZ3JhbiBhcG95byBlbiBlbCBkaXNlw7FvXG4gICAgICAgICAgICAgIGRlIGFsZ8O6biBwcm95ZWN0by4gTWUgY29uc2lkZXJvIHVuYSBwZXJzb25hIGNvbiBjb21wcm9taXNvLCB5IHBvclxuICAgICAgICAgICAgICBwb25lciBtdWNobyBlbXBlw7FvIGVuIGxhcyBjb3NhcyBoYWdvLCBwcm9ncmFtYXIgcGFyYSBtaSBzZSB2dWVsdmVcbiAgICAgICAgICAgICAgZW50cmV0ZW5pZG8sIG1lIGRpdmllcnRlLCBtZSBlbW9jaW9uYS4gRXMgcG9yIGVzbyBxdWUgY3VhbmRvIHNlXG4gICAgICAgICAgICAgIHRyYXRhIGRlIHByb2dyYW1hciBzaWVtcHJlIGRveSBlbCAyMDAlIGRlIG1pIHkgYXPDrSBlbmZyZW50YXIgdG9kYXNcbiAgICAgICAgICAgICAgbGFzIGRpZmljdWx0YWRlcyBhbCBtb21lbnRvIGRlIHByb3BvbmVybWUgYWxnby5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2xcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZFwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtYm9keVwiPlxuICAgICAgICAgICAgICAgIDxIb3Jpem9udGFsQmFyXG4gICAgICAgICAgICAgICAgICBvcHRpb25zPXt7cmVzcG9uc2l2ZTogdHJ1ZX19XG4gICAgICAgICAgICAgICAgICBoZWlnaHQ9ezEwMH1cbiAgICAgICAgICAgICAgICAgIGRhdGE9e2RhdGF9XG4gICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLnRleHQgcCB7XG4gICAgICAgICAgdGV4dC1hbGlnbjoganVzdGlmeTtcbiAgICAgICAgfVxuICAgICAgICAuYWJvdXQtY29udGFpbmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL3N0YXRpYy9pbWcvdG9vbHMucG5nKTtcbiAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgICAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgICAgIGhlaWdodDogMTAwdmg7XG4gICAgICAgICAgcGFkZGluZzogMHB4IDMwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L0xheW91dD5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBhY2VyY2FcbiJdfQ== */\n/*@ sourceURL=/home/juanl/Proyectos/React/portafolio/pages/acerca.js */"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (certificaciones);
+/* harmony default export */ __webpack_exports__["default"] = (acerca);
 
 /***/ }),
 
@@ -1318,14 +1225,14 @@ const certificaciones = ({
 
 /***/ }),
 
-/***/ 6:
-/*!****************************************!*\
-  !*** multi ./pages/certificaciones.js ***!
-  \****************************************/
+/***/ 5:
+/*!*******************************!*\
+  !*** multi ./pages/acerca.js ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/juanl/Proyectos/React/portafolio/pages/certificaciones.js */"./pages/certificaciones.js");
+module.exports = __webpack_require__(/*! /home/juanl/Proyectos/React/portafolio/pages/acerca.js */"./pages/acerca.js");
 
 
 /***/ }),
@@ -1484,14 +1391,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-responsive-carousel":
-/*!********************************************!*\
-  !*** external "react-responsive-carousel" ***!
-  \********************************************/
+/***/ "react-chartjs-2":
+/*!**********************************!*\
+  !*** external "react-chartjs-2" ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-responsive-carousel");
+module.exports = require("react-chartjs-2");
 
 /***/ }),
 
@@ -1518,4 +1425,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=certificaciones.js.map
+//# sourceMappingURL=acerca.js.map

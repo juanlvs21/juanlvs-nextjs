@@ -1,34 +1,49 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_9e2a3f9838424feeb96c.js",
-    "static/development/dll/dll_9e2a3f9838424feeb96c.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
+    ],
+    "/acerca": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
     ],
     "/certificaciones": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/css/styles.9da460fd.chunk.css",
+      "static/chunks/styles.fc370857811b597a651e.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
+    ],
+    "/contacto": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.256761dc.chunk.css",
+      "static/chunks/commons.85cacc3a25c2d3d760bf.js",
+      "static/runtime/main-1a4ba22d398aa8243fe9.js"
     ]
   }
 }
